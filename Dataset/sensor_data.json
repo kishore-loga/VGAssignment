@@ -1,0 +1,1831 @@
+[
+
+    {
+      "sensor_id": "S001",
+      "sensor_type": "temperature",
+      "location": "Warehouse A",
+      "timestamp": "2023-06-04T09:30:00Z",
+      "reading": 25.5,
+      "unit": "Celsius",
+      "metadata": {
+        "manufacturer": "ABC Sensors Inc.",
+        "model": "TS200",
+        "calibration_date": "2023-01-15",
+        "serial_number": "12345"
+      }
+    } ,
+    {
+      "sensor_id": "S002",
+      "sensor_type": "humidity",
+      "location": "Warehouse B",
+      "timestamp": "2023-06-04T10:15:00Z",
+      "reading": 60.2,
+      "unit": "%",
+      "metadata": {
+        "manufacturer": "XYZ Sensors Corp.",
+        "model": "HUM123",
+        "calibration_date": "2023-02-20",
+        "serial_number": "67890"
+      }
+    },
+    {
+      "sensor_id": "S003",
+      "sensor_type": "pressure",
+      "location": "Production Line 1",
+      "timestamp": "2023-06-04T11:00:00Z",
+      "reading": 101.2,
+      "unit": "kPa",
+      "metadata": {
+        "manufacturer": "PharmaSense Ltd.",
+        "model": "PRS456",
+        "calibration_date": "2023-03-10",
+        "serial_number": "54321"
+      }
+    },
+    {
+      "sensor_id": "S004",
+      "sensor_type": "vibration",
+      "location": "Packaging Area",
+      "timestamp": "2023-06-04T11:45:00Z",
+      "reading": 0.8,
+      "unit": "mm/s",
+      "metadata": {
+        "manufacturer": "SensorTech Inc.",
+        "model": "VIB789",
+        "calibration_date": "2023-04-05",
+        "serial_number": "98765"
+      }
+    },
+    {
+      "sensor_id": "S005",
+      "sensor_type": "air_quality",
+      "location": "Laboratory",
+      "timestamp": "2023-06-04T12:30:00Z",
+      "reading": 18.5,
+      "unit": "ppm",
+      "metadata": {
+        "manufacturer": "AirSense Systems",
+        "model": "AQ2000",
+        "calibration_date": "2023-05-01",
+        "serial_number": "24680"
+      }
+    },
+    {
+      "sensor_id": "S006",
+      "sensor_type": "light",
+      "location": "Cleanroom",
+      "timestamp": "2023-06-04T13:15:00Z",
+      "reading": 800,
+      "unit": "lux",
+      "metadata": {
+        "manufacturer": "LightTech Solutions",
+        "model": "LT100",
+        "calibration_date": "2023-05-15",
+        "serial_number": "13579"
+      }
+    },
+    {
+      "sensor_id": "S007",
+      "sensor_type": "gas",
+      "location": "Storage Area",
+      "timestamp": "2023-06-04T14:00:00Z",
+      "reading": 12.3,
+      "unit": "ppm",
+      "metadata": {
+        "manufacturer": "GasSense Inc.",
+        "model": "GS500",
+        "calibration_date": "2023-06-02",
+        "serial_number": "97531"
+      }
+    },
+    {
+      "sensor_id": "S008",
+      "sensor_type": "power",
+      "location": "Equipment Room",
+      "timestamp": "2023-06-04T14:45:00Z",
+      "reading": 1500,
+      "unit": "Watts",
+      "metadata": {
+        "manufacturer": "PowerSense Technologies",
+        "model": "PW5000",
+        "calibration_date": "2023-05-20",
+        "serial_number": "24680"
+      }
+    },
+    {
+      "sensor_id": "S009",
+      "sensor_type": "humidity",
+      "location": "Warehouse C",
+      "timestamp": "2023-06-04T15:30:00Z",
+      "reading": 62.8,
+      "unit": "%",
+      "metadata": {
+        "manufacturer": "HumidSense Corp.",
+        "model": "HM200",
+        "calibration_date": "2023-03-25",
+        "serial_number": "80246"
+      }
+    },
+    {
+      "sensor_id": "S010",
+      "sensor_type": "temperature",
+      "location": "Refrigeration Room",
+      "timestamp": "2023-06-04T16:15:00Z",
+      "reading": -15.2,
+      "unit": "Celsius",
+      "metadata": {
+        "manufacturer": "CoolSense Inc.",
+        "model": "CT2000",
+        "calibration_date": "2023-01-30",
+        "serial_number": "24680"
+      }
+    },
+    {
+    "sensor_id": "S011",
+    "sensor_type": "pressure",
+    "location": "Cleanroom",
+    "timestamp": "2023-06-04T17:00:00Z",
+    "reading": 100.5,
+    "unit": "kPa",
+    "metadata": {
+        "manufacturer": "PressureTech Inc.",
+        "model": "PT300",
+        "calibration_date": "2023-02-28",
+        "serial_number": "97531"
+    }
+    },
+    {
+    "sensor_id": "S012",
+    "sensor_type": "vibration",
+    "location": "Production Line 1",
+    "timestamp": "2023-06-04T17:45:00Z",
+    "reading": 0.025,
+    "unit": "mm/s",
+    "metadata": {
+        "manufacturer": "VibraSense Technologies",
+        "model": "VB1000",
+        "calibration_date": "2023-04-15",
+        "serial_number": "80246"
+    }
+    },
+        {
+        "sensor_id": "S013",
+        "sensor_type": "gas",
+        "location": "Laboratory",
+        "timestamp": "2023-06-04T18:30:00Z",
+        "reading": 8.7,
+        "unit": "ppm",
+        "metadata": {
+            "manufacturer": "GasTech Solutions",
+            "model": "GT200",
+            "calibration_date": "2023-05-05",
+            "serial_number": "24680"
+        }
+        },
+        {
+        "sensor_id": "S014",
+        "sensor_type": "humidity",
+        "location": "Warehouse B",
+        "timestamp": "2023-06-04T19:15:00Z",
+        "reading": 55.2,
+        "unit": "%",
+        "metadata": {
+            "manufacturer": "HumidTech Corp.",
+            "model": "HT500",
+            "calibration_date": "2023-03-10",
+            "serial_number": "13579"
+        }
+        },
+        {
+        "sensor_id": "S015",
+        "sensor_type": "temperature",
+        "location": "Storage Area",
+        "timestamp": "2023-06-04T20:00:00Z",
+        "reading": 18.9,
+        "unit": "Celsius",
+        "metadata": {
+            "manufacturer": "TempSense Inc.",
+            "model": "TM100",
+            "calibration_date": "2023-01-05",
+            "serial_number": "24680"
+        }
+        },
+        {
+        "sensor_id": "S016",
+        "sensor_type": "light",
+        "location": "Cleanroom",
+        "timestamp": "2023-06-04T20:45:00Z",
+        "reading": 500,
+        "unit": "lux",
+        "metadata": {
+            "manufacturer": "LightTech Solutions",
+            "model": "LT200",
+            "calibration_date": "2023-05-20",
+            "serial_number": "97531"
+        }
+        },
+    
+      {
+        "sensor_id": "S018",
+        "sensor_type": "sound",
+        "location": "Production Line 2",
+        "timestamp": "2023-06-04T22:15:00Z",
+        "reading": 65.3,
+        "unit": "dB",
+        "metadata": {
+          "manufacturer": "AcousticTech Inc.",
+          "model": "AS300",
+          "calibration_date": "2023-04-02",
+          "serial_number": "80246"
+        }
+      },
+      {
+        "sensor_id": "S019",
+        "sensor_type": "humidity",
+        "location": "Laboratory",
+        "timestamp": "2023-06-04T23:00:00Z",
+        "reading": 62.7,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "HumidSense Corp.",
+          "model": "HS500",
+          "calibration_date": "2023-03-25",
+          "serial_number": "13579"
+        }
+      },
+      {
+        "sensor_id": "S020",
+        "sensor_type": "pressure",
+        "location": "Warehouse C",
+        "timestamp": "2023-06-04T23:45:00Z",
+        "reading": 98.2,
+        "unit": "kPa",
+        "metadata": {
+          "manufacturer": "PressureSense Ltd.",
+          "model": "PS400",
+          "calibration_date": "2023-02-10",
+          "serial_number": "24680"
+        }
+      },
+      {
+        "sensor_id": "S021",
+        "sensor_type": "gas",
+        "location": "Storage Area",
+        "timestamp": "2023-06-05T00:30:00Z",
+        "reading": 12.4,
+        "unit": "ppm",
+        "metadata": {
+          "manufacturer": "GasSense Inc.",
+          "model": "GS300",
+          "calibration_date": "2023-05-15",
+          "serial_number": "97531"
+        }
+      },
+      {
+        "sensor_id": "S022",
+        "sensor_type": "temperature",
+        "location": "Cleanroom",
+        "timestamp": "2023-06-05T01:15:00Z",
+        "reading": 23.1,
+        "unit": "Celsius",
+        "metadata": {
+          "manufacturer": "TempTech Solutions",
+          "model": "TT400",
+          "calibration_date": "2023-01-30",
+          "serial_number": "80246"
+        }
+      },
+      {
+      "sensor_id": "S023",
+      "sensor_type": "vibration",
+      "location": "Manufacturing Area",
+      "timestamp": "2023-06-05T02:00:00Z",
+      "reading": 0.32,
+      "unit": "g",
+      "metadata": {
+        "manufacturer": "VibraSense Inc.",
+        "model": "VB200",
+        "calibration_date": "2023-02-22",
+        "serial_number": "75309"
+      }
+    },
+    {
+      "sensor_id": "S024",
+      "sensor_type": "light",
+      "location": "Warehouse B",
+      "timestamp": "2023-06-05T02:45:00Z",
+      "reading": 420,
+      "unit": "lux",
+      "metadata": {
+        "manufacturer": "LuminTech Corp.",
+        "model": "LT600",
+        "calibration_date": "2023-03-10",
+        "serial_number": "46820"
+      }
+    },
+    {
+      "sensor_id": "S025",
+      "sensor_type": "air_quality",
+      "location": "Office Area",
+      "timestamp": "2023-06-05T03:30:00Z",
+      "reading": {
+        "CO2": 800,
+        "PM2.5": 20
+      },
+      "unit": {
+        "CO2": "ppm",
+        "PM2.5": "µg/m³"
+      },
+      "metadata": {
+        "manufacturer": "AirSense Systems",
+        "model": "AS800",
+        "calibration_date": "2023-01-05",
+        "serial_number": "90257"
+      }
+    },
+    {
+      "sensor_id": "S026",
+      "sensor_type": "humidity",
+      "location": "Laboratory",
+      "timestamp": "2023-06-05T04:15:00Z",
+      "reading": 59.8,
+      "unit": "%",
+      "metadata": {
+        "manufacturer": "HumidSense Corp.",
+        "model": "HS500",
+        "calibration_date": "2023-03-25",
+        "serial_number": "13579"
+      }
+    },
+    {
+      "sensor_id": "S027",
+      "sensor_type": "temperature",
+      "location": "Storage Room",
+      "timestamp": "2023-06-05T05:00:00Z",
+      "reading": 21.8,
+      "unit": "Celsius",
+      "metadata": {
+        "manufacturer": "TempTech Solutions",
+        "model": "TT400",
+        "calibration_date": "2023-01-30",
+        "serial_number": "80246"
+      }
+    },
+    {
+      "sensor_id": "S028",
+      "sensor_type": "pressure",
+      "location": "Production Line",
+      "timestamp": "2023-06-05T05:45:00Z",
+      "reading": 5.2,
+      "unit": "bar",
+      "metadata": {
+        "manufacturer": "PressureTech Inc.",
+        "model": "PT300",
+        "calibration_date": "2023-02-18",
+        "serial_number": "62105"
+      }
+    },
+    {
+      "sensor_id": "S029",
+      "sensor_type": "sound",
+      "location": "Quality Control Lab",
+      "timestamp": "2023-06-05T06:30:00Z",
+      "reading": 68.5,
+      "unit": "dB",
+      "metadata": {
+        "manufacturer": "AcoustiSense Corp.",
+        "model": "AS700",
+        "calibration_date": "2023-03-05",
+        "serial_number": "95231"
+      }
+    },
+    {
+      "sensor_id": "S030",
+      "sensor_type": "humidity",
+      "location": "Clean Room",
+      "timestamp": "2023-06-05T07:15:00Z",
+      "reading": 52.3,
+      "unit": "%",
+      "metadata": {
+        "manufacturer": "HumidSense Corp.",
+        "model": "HS500",
+        "calibration_date": "2023-01-30",
+        "serial_number": "80246"
+      }
+    },
+    {
+      "sensor_id": "S031",
+      "sensor_type": "temperature",
+      "location": "Storage Room",
+      "timestamp": "2023-06-05T08:00:00Z",
+      "reading": 21.5,
+      "unit": "Celsius",
+      "metadata": {
+        "manufacturer": "TempTech Solutions",
+        "model": "TT400",
+        "calibration_date": "2023-01-30",
+        "serial_number": "80246"
+      }
+    },
+    {
+      "sensor_id": "S032",
+      "sensor_type": "motion",
+      "location": "Warehouse C",
+      "timestamp": "2023-06-05T08:45:00Z",
+      "status": "detected",
+      "metadata": {
+        "manufacturer": "MotionSense Inc.",
+        "model": "MS100",
+        "calibration_date": "2023-02-05",
+        "serial_number": "71839"
+      }
+    },
+    {
+      "sensor_id": "S033",
+      "sensor_type": "vibration",
+      "location": "Production Line",
+      "timestamp": "2023-06-05T09:30:00Z",
+      "reading": 3.8,
+      "unit": "mm/s",
+      "metadata": {
+        "manufacturer": "VibroTech Solutions",
+        "model": "VT2000",
+        "calibration_date": "2023-03-15",
+        "serial_number": "54892"
+      }
+    },
+    {
+      "sensor_id": "S034",
+      "sensor_type": "gas",
+      "location": "Storage Facility",
+      "timestamp": "2023-06-05T10:15:00Z",
+      "gas_type": "CO2",
+      "reading": 800,
+      "unit": "ppm",
+      "metadata": {
+        "manufacturer": "GasSense Inc.",
+        "model": "GS500",
+        "calibration_date": "2023-02-28",
+        "serial_number": "72019"
+      }
+    },
+    {
+      "sensor_id": "S035",
+      "sensor_type": "light",
+      "location": "Clean Room",
+      "timestamp": "2023-06-05T11:00:00Z",
+      "reading": 450,
+      "unit": "lux",
+      "metadata": {
+        "manufacturer": "LightTech Corp.",
+        "model": "LT600",
+        "calibration_date": "2023-02-10",
+        "serial_number": "92654"
+      }
+    },
+    {
+      "sensor_id": "S036",
+      "sensor_type": "pressure",
+      "location": "Production Line",
+      "timestamp": "2023-06-05T11:45:00Z",
+      "reading": 4.7,
+      "unit": "bar",
+      "metadata": {
+        "manufacturer": "PressureSense Corp.",
+        "model": "PS400",
+        "calibration_date": "2023-02-25",
+        "serial_number": "63218"
+      }
+    },
+    {
+      "sensor_id": "S037",
+      "sensor_type": "temperature",
+      "location": "Warehouse B",
+      "timestamp": "2023-06-05T12:30:00Z",
+      "reading": 22.8,
+      "unit": "Celsius",
+      "metadata": {
+        "manufacturer": "TempSense Solutions",
+        "model": "TS700",
+        "calibration_date": "2023-03-10",
+        "serial_number": "48017"
+      }
+    },
+    {
+      "sensor_id": "S038",
+      "sensor_type": "humidity",
+      "location": "Storage Room",
+      "timestamp": "2023-06-05T13:15:00Z",
+      "reading": 65.2,
+      "unit": "%",
+      "metadata": {
+        "manufacturer": "HumidSense Inc.",
+        "model": "HM300",
+        "calibration_date": "2023-03-20",
+        "serial_number": "98263"
+      }
+    },
+    {
+      "sensor_id": "S039",
+      "sensor_type": "sound",
+      "location": "Lab A",
+      "timestamp": "2023-06-05T14:00:00Z",
+      "reading": 68.5,
+      "unit": "dB",
+      "metadata": {
+        "manufacturer": "AudioTech Solutions",
+        "model": "AT2000",
+        "calibration_date": "2023-04-05",
+        "serial_number": "72496"
+      }
+    },
+    {
+      "sensor_id": "S040",
+      "sensor_type": "weight",
+      "location": "Packaging Area",
+      "timestamp": "2023-06-05T14:45:00Z",
+      "reading": 12.3,
+      "unit": "kg",
+      "metadata": {
+        "manufacturer": "WeightTech Corp.",
+        "model": "WT500",
+        "calibration_date": "2023-03-15",
+        "serial_number": "39571"
+      }
+    },
+    {
+      "sensor_id": "S041",
+      "sensor_type": "vibration",
+      "location": "Production Line",
+      "timestamp": "2023-06-05T15:30:00Z",
+      "reading": 4.2,
+      "unit": "mm/s",
+      "metadata": {
+        "manufacturer": "VibroTech Solutions",
+        "model": "VT2000",
+        "calibration_date": "2023-02-28",
+        "serial_number": "80123"
+      }
+    },
+    {
+      "sensor_id": "S042",
+      "sensor_type": "gas",
+      "location": "Storage Facility",
+      "timestamp": "2023-06-05T16:15:00Z",
+      "gas_type": "CO2",
+      "reading": 820,
+      "unit": "ppm",
+      "metadata": {
+        "manufacturer": "GasSense Inc.",
+        "model": "GS500",
+        "calibration_date": "2023-02-15",
+        "serial_number": "63057"
+      }
+    },
+    {
+      "sensor_id": "S043",
+      "sensor_type": "pressure",
+      "location": "Clean Room",
+      "timestamp": "2023-06-05T17:00:00Z",
+      "reading": 1023.5,
+      "unit": "hPa",
+      "metadata": {
+        "manufacturer": "PressureTech Inc.",
+        "model": "PT1000",
+        "calibration_date": "2023-01-10",
+        "serial_number": "48921"
+      }
+    },
+    {
+      "sensor_id": "S044",
+      "sensor_type": "light",
+      "location": "Research Lab",
+      "timestamp": "2023-06-05T17:45:00Z",
+      "reading": 550,
+      "unit": "lux",
+      "metadata": {
+        "manufacturer": "LumosTech Solutions",
+        "model": "LT500",
+        "calibration_date": "2023-02-05",
+        "serial_number": "93624"
+      }
+    },
+    {
+      "sensor_id": "S045",
+      "sensor_type": "proximity",
+      "location": "Warehouse B",
+      "timestamp": "2023-06-05T18:30:00Z",
+      "status": "occupied",
+      "metadata": {
+        "manufacturer": "ProxiSense Inc.",
+        "model": "PX200",
+        "calibration_date": "2023-03-12",
+        "serial_number": "74258"
+      }
+    },
+    {
+      "sensor_id": "S046",
+      "sensor_type": "flow",
+      "location": "Processing Plant",
+      "timestamp": "2023-06-05T19:15:00Z",
+      "reading": 8.5,
+      "unit": "m³/h",
+      "metadata": {
+        "manufacturer": "FlowTech Systems",
+        "model": "FT100",
+        "calibration_date": "2023-02-22",
+        "serial_number": "57132"
+      }
+    },
+    {
+      "sensor_id": "S047",
+      "sensor_type": "humidity",
+      "location": "Storage Room",
+      "timestamp": "2023-06-05T20:00:00Z",
+      "reading": 62.8,
+      "unit": "%",
+      "metadata": {
+        "manufacturer": "HumidSense Inc.",
+        "model": "HM300",
+        "calibration_date": "2023-03-20",
+        "serial_number": "28714"
+      }
+    },
+    {
+      "sensor_id": "S048",
+      "sensor_type": "vibration",
+      "location": "Manufacturing Line",
+      "timestamp": "2023-06-05T20:45:00Z",
+      "vibration_intensity": 0.75,
+      "unit": "g",
+      "metadata": {
+        "manufacturer": "VibroTech Solutions",
+        "model": "VT900",
+        "calibration_date": "2023-04-02",
+        "serial_number": "83957"
+      }
+    },
+    {
+      "sensor_id": "S049",
+      "sensor_type": "gas",
+      "location": "Filling Station",
+      "timestamp": "2023-06-05T21:30:00Z",
+      "gas_type": "Oxygen",
+      "concentration": 18.5,
+      "unit": "%",
+      "metadata": {
+        "manufacturer": "GasSense Inc.",
+        "model": "GS200",
+        "calibration_date": "2023-03-28",
+        "serial_number": "62571"
+      }
+    },
+    {
+      "sensor_id": "S050",
+      "sensor_type": "power",
+      "location": "Control Room",
+      "timestamp": "2023-06-05T22:15:00Z",
+      "power_consumption": 1250,
+      "unit": "Watt",
+      "metadata": {
+        "manufacturer": "PowerTech Systems",
+        "model": "PT2000",
+        "calibration_date": "2023-02-18",
+        "serial_number": "42789"
+      }
+    },
+    {
+      "sensor_id": "S051",
+      "sensor_type": "humidity",
+      "location": "Packaging Area",
+      "timestamp": "2023-06-05T23:00:00Z",
+      "reading": 55.2,
+      "unit": "%",
+      "metadata": {
+        "manufacturer": "HumidSense Inc.",
+        "model": "HM300",
+        "calibration_date": "2023-03-20",
+        "serial_number": "28714"
+      }
+    },
+    {
+      "sensor_id": "S052",
+      "sensor_type": "temperature",
+      "location": "Cold Storage",
+      "timestamp": "2023-06-05T23:45:00Z",
+      "reading": -10.2,
+      "unit": "Celsius",
+      "metadata": {
+        "manufacturer": "ColdTech Systems",
+        "model": "CT500",
+        "calibration_date": "2023-01-05",
+        "serial_number": "21596"
+      }
+    },
+    {
+      "sensor_id": "S053",
+      "sensor_type": "pressure",
+      "location": "Clean Room",
+      "timestamp": "2023-06-06T00:30:00Z",
+      "pressure": 101.2,
+      "unit": "kPa",
+      "metadata": {
+        "manufacturer": "PressureTech Inc.",
+        "model": "PT100",
+        "calibration_date": "2023-02-28",
+        "serial_number": "93210"
+      }
+    },
+    {
+      "sensor_id": "S054",
+      "sensor_type": "light",
+      "location": "Laboratory",
+      "timestamp": "2023-06-06T01:15:00Z",
+      "light_intensity": 850,
+      "unit": "Lux",
+      "metadata": {
+        "manufacturer": "Lumos Technologies",
+        "model": "LT450",
+        "calibration_date": "2023-03-15",
+        "serial_number": "76429"
+      }
+    },
+    {
+      "sensor_id": "S055",
+      "sensor_type": "humidity",
+      "location": "Incubator",
+      "timestamp": "2023-06-06T02:00:00Z",
+      "reading": 70.5,
+      "unit": "%",
+      "metadata": {
+        "manufacturer": "HumidSense Inc.",
+        "model": "HM300",
+        "calibration_date": "2023-03-20",
+        "serial_number": "28714"
+      }
+    },
+    {
+      "sensor_id": "S056",
+      "sensor_type": "vibration",
+      "location": "Packing Line",
+      "timestamp": "2023-06-06T02:45:00Z",
+      "vibration_intensity": 0.62,
+      "unit": "g",
+      "metadata": {
+        "manufacturer": "VibroTech Solutions",
+        "model": "VT900",
+        "calibration_date": "2023-04-02",
+        "serial_number": "83957"
+      }
+    },
+    {
+      "sensor_id": "S057",
+      "sensor_type": "temperature",
+      "location": "Freezer",
+      "timestamp": "2023-06-06T03:30:00Z",
+      "reading": -20.5,
+      "unit": "Celsius",
+      "metadata": {
+        "manufacturer": "ColdTech Systems",
+        "model": "CT500",
+        "calibration_date": "2023-01-05",
+        "serial_number": "21596"
+      }
+    },
+    {
+      "sensor_id": "S058",
+      "sensor_type": "gas",
+      "location": "Storage Room",
+      "timestamp": "2023-06-06T04:15:00Z",
+      "gas_type": "Carbon Dioxide",
+      "concentration": 3.2,
+      "unit": "%",
+      "metadata": {
+        "manufacturer": "GasSense Inc.",
+        "model": "GS200",
+        "calibration_date": "2023-03-28",
+        "serial_number": "62571"
+      }
+    },
+    {
+      "sensor_id": "S059",
+      "sensor_type": "temperature",
+      "location": "Storage Room",
+      "timestamp": "2023-06-06T05:00:00Z",
+      "reading": 18.7,
+      "unit": "Celsius",
+      "metadata": {
+        "manufacturer": "TempSense Inc.",
+        "model": "TS300",
+        "calibration_date": "2023-02-10",
+        "serial_number": "48632"
+      }
+    },
+    {
+      "sensor_id": "S060",
+      "sensor_type": "humidity",
+      "location": "Laboratory",
+      "timestamp": "2023-06-06T05:45:00Z",
+      "reading": 63.2,
+      "unit": "%",
+      "metadata": {
+        "manufacturer": "HumidTech Solutions",
+        "model": "HT400",
+        "calibration_date": "2023-03-18",
+        "serial_number": "75420"
+      }
+    },
+    {
+      "sensor_id": "S061",
+      "sensor_type": "pressure",
+      "location": "Clean Room",
+      "timestamp": "2023-06-06T06:30:00Z",
+      "pressure": 99.8,
+      "unit": "kPa",
+      "metadata": {
+        "manufacturer": "PressureSolutions",
+        "model": "PS150",
+        "calibration_date": "2023-01-25",
+        "serial_number": "91348"
+      }
+    },
+    {
+      "sensor_id": "S062",
+      "sensor_type": "light",
+      "location": "Warehouse B",
+      "timestamp": "2023-06-06T07:15:00Z",
+      "light_intensity": 650,
+      "unit": "Lux",
+      "metadata": {
+        "manufacturer": "Luminous Corp.",
+        "model": "LU700",
+        "calibration_date": "2023-03-10",
+        "serial_number": "63241"
+      }
+    },
+    {
+      "sensor_id": "S063",
+      "sensor_type": "vibration",
+      "location": "Production Line",
+      "timestamp": "2023-06-06T08:00:00Z",
+      "vibration_intensity": 0.42,
+      "unit": "g",
+      "metadata": {
+        "manufacturer": "VibeSense Inc.",
+        "model": "VB100",
+        "calibration_date": "2023-04-05",
+        "serial_number": "75194"
+      }
+    },
+    {
+      "sensor_id": "S064",
+      "sensor_type": "gas",
+      "location": "Lab Storage",
+      "timestamp": "2023-06-06T08:45:00Z",
+      "gas_type": "Ammonia",
+      "concentration": 1.8,
+      "unit": "%",
+      "metadata": {
+        "manufacturer": "GasTech Systems",
+        "model": "GT300",
+        "calibration_date": "2023-03-22",
+        "serial_number": "52879"
+      }
+    },
+    {
+        "sensor_id": "S065",
+        "sensor_type": "temperature",
+        "location": "Refrigerator",
+        "timestamp": "2023-06-06T09:30:00Z",
+        "reading": 5.2,
+        "unit": "Celsius",
+        "metadata": {
+          "manufacturer": "CoolTech Inc.",
+          "model": "CT500",
+          "calibration_date": "2023-02-28",
+          "serial_number": "92641"
+        }
+      },
+      {
+        "sensor_id": "S066",
+        "sensor_type": "humidity",
+        "location": "Lab Storage",
+        "timestamp": "2023-06-06T10:15:00Z",
+        "reading": 68.9,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "HumidSense Solutions",
+          "model": "HS450",
+          "calibration_date": "2023-03-05",
+          "serial_number": "74216"
+        }
+      },
+      {
+        "sensor_id": "S067",
+        "sensor_type": "pressure",
+        "location": "Production Area",
+        "timestamp": "2023-06-06T11:00:00Z",
+        "pressure": 101.3,
+        "unit": "kPa",
+        "metadata": {
+          "manufacturer": "PressureTech",
+          "model": "PT200",
+          "calibration_date": "2023-02-15",
+          "serial_number": "54238"
+        }
+      },
+      {
+        "sensor_id": "S068",
+        "sensor_type": "light",
+        "location": "Warehouse C",
+        "timestamp": "2023-06-06T11:45:00Z",
+        "light_intensity": 500,
+        "unit": "Lux",
+        "metadata": {
+          "manufacturer": "IllumiTech",
+          "model": "IL800",
+          "calibration_date": "2023-01-20",
+          "serial_number": "81749"
+        }
+      },
+      {
+        "sensor_id": "S069",
+        "sensor_type": "vibration",
+        "location": "Packaging Area",
+        "timestamp": "2023-06-06T12:30:00Z",
+        "vibration_intensity": 0.35,
+        "unit": "g",
+        "metadata": {
+          "manufacturer": "VibraSense Inc.",
+          "model": "VS120",
+          "calibration_date": "2023-03-12",
+          "serial_number": "69241"
+        }
+      },
+      {
+        "sensor_id": "S070",
+        "sensor_type": "gas",
+        "location": "Chemical Storage",
+        "timestamp": "2023-06-06T13:15:00Z",
+        "gas_type": "Hydrogen Peroxide",
+        "concentration": 2.1,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "GasSense",
+          "model": "GS600",
+          "calibration_date": "2023-02-25",
+          "serial_number": "93571"
+        }
+      },
+      {
+        "sensor_id": "S071",
+        "sensor_type": "temperature",
+        "location": "Cold Storage Room",
+        "timestamp": "2023-06-06T14:00:00Z",
+        "reading": -10.7,
+        "unit": "Celsius",
+        "metadata": {
+          "manufacturer": "FreezeTech",
+          "model": "FT300",
+          "calibration_date": "2023-03-18",
+          "serial_number": "42518"
+        }
+      },
+      {
+        "sensor_id": "S072",
+        "sensor_type": "humidity",
+        "location": "Cleanroom",
+        "timestamp": "2023-06-06T14:45:00Z",
+        "reading": 45.2,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "HumidSense Solutions",
+          "model": "HS450",
+          "calibration_date": "2023-03-05",
+          "serial_number": "74216"
+        }
+      },
+      {
+        "sensor_id": "S073",
+        "sensor_type": "pressure",
+        "location": "Filling Station",
+        "timestamp": "2023-06-06T15:30:00Z",
+        "pressure": 98.7,
+        "unit": "kPa",
+        "metadata": {
+          "manufacturer": "PressureTech",
+          "model": "PT200",
+          "calibration_date": "2023-02-15",
+          "serial_number": "54238"
+        }
+      },
+      {
+        "sensor_id": "S074",
+        "sensor_type": "light",
+        "location": "Warehouse B",
+        "timestamp": "2023-06-06T16:15:00Z",
+        "light_intensity": 800,
+        "unit": "Lux",
+        "metadata": {
+          "manufacturer": "IllumiTech",
+          "model": "IL800",
+          "calibration_date": "2023-01-20",
+          "serial_number": "81749"
+        }
+      },
+      {
+        "sensor_id": "S075",
+        "sensor_type": "vibration",
+        "location": "Mixing Area",
+        "timestamp": "2023-06-06T17:00:00Z",
+        "vibration_intensity": 0.2,
+        "unit": "g",
+        "metadata": {
+          "manufacturer": "VibraSense Inc.",
+          "model": "VS120",
+          "calibration_date": "2023-03-12",
+          "serial_number": "69241"
+        }
+      },
+      {
+        "sensor_id": "S076",
+        "sensor_type": "gas",
+        "location": "Laboratory",
+        "timestamp": "2023-06-06T17:45:00Z",
+        "gas_type": "Ethanol",
+        "concentration": 4.3,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "GasSense",
+          "model": "GS600",
+          "calibration_date": "2023-02-25",
+          "serial_number": "93571"
+        }
+      },
+      {
+        "sensor_id": "S077",
+        "sensor_type": "temperature",
+        "location": "Incubator Room",
+        "timestamp": "2023-06-06T18:30:00Z",
+        "reading": 37.8,
+        "unit": "Celsius",
+        "metadata": {
+          "manufacturer": "TempTech",
+          "model": "TT500",
+          "calibration_date": "2023-02-28",
+          "serial_number": "85632"
+        }
+      },
+      {
+        "sensor_id": "S078",
+        "sensor_type": "humidity",
+        "location": "Lab Storage",
+        "timestamp": "2023-06-06T19:15:00Z",
+        "reading": 60.5,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "HumidSense Solutions",
+          "model": "HS450",
+          "calibration_date": "2023-03-05",
+          "serial_number": "74216"
+        }
+      },
+      {
+        "sensor_id": "S079",
+        "sensor_type": "pressure",
+        "location": "Packing Area",
+        "timestamp": "2023-06-06T20:00:00Z",
+        "pressure": 101.2,
+        "unit": "kPa",
+        "metadata": {
+          "manufacturer": "PressureTech",
+          "model": "PT200",
+          "calibration_date": "2023-02-15",
+          "serial_number": "54238"
+        }
+      },
+      {
+        "sensor_id": "S080",
+        "sensor_type": "light",
+        "location": "Warehouse C",
+        "timestamp": "2023-06-06T20:45:00Z",
+        "light_intensity": 650,
+        "unit": "Lux",
+        "metadata": {
+          "manufacturer": "IllumiTech",
+          "model": "IL800",
+          "calibration_date": "2023-01-20",
+          "serial_number": "81749"
+        }
+      },
+      {
+        "sensor_id": "S081",
+        "sensor_type": "vibration",
+        "location": "Packing Area",
+        "timestamp": "2023-06-06T21:30:00Z",
+        "vibration_intensity": 0.3,
+        "unit": "g",
+        "metadata": {
+          "manufacturer": "VibraSense Inc.",
+          "model": "VS120",
+          "calibration_date": "2023-03-12",
+          "serial_number": "69241"
+        }
+      },
+      {
+        "sensor_id": "S082",
+        "sensor_type": "gas",
+        "location": "Chemical Storage",
+        "timestamp": "2023-06-06T22:15:00Z",
+        "gas_type": "Methanol",
+        "concentration": 3.8,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "GasSense",
+          "model": "GS600",
+          "calibration_date": "2023-02-25",
+          "serial_number": "93571"
+        }
+      },
+      {
+        "sensor_id": "S083",
+        "sensor_type": "temperature",
+        "location": "Cold Storage",
+        "timestamp": "2023-06-06T23:00:00Z",
+        "reading": 2.5,
+        "unit": "Celsius",
+        "metadata": {
+          "manufacturer": "FreezeTech",
+          "model": "FT300",
+          "calibration_date": "2023-01-10",
+          "serial_number": "27651"
+        }
+      },
+      {
+        "sensor_id": "S084",
+        "sensor_type": "humidity",
+        "location": "Clean Room",
+        "timestamp": "2023-06-06T23:45:00Z",
+        "reading": 45.2,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "HumidSense Solutions",
+          "model": "HS450",
+          "calibration_date": "2023-03-05",
+          "serial_number": "74216"
+        }
+      },
+      {
+        "sensor_id": "S085",
+        "sensor_type": "pressure",
+        "location": "Laboratory",
+        "timestamp": "2023-06-07T00:30:00Z",
+        "pressure": 98.7,
+        "unit": "kPa",
+        "metadata": {
+          "manufacturer": "PressureTech",
+          "model": "PT200",
+          "calibration_date": "2023-02-15",
+          "serial_number": "54238"
+        }
+      },
+      {
+        "sensor_id": "S086",
+        "sensor_type": "light",
+        "location": "Production Area",
+        "timestamp": "2023-06-07T01:15:00Z",
+        "light_intensity": 450,
+        "unit": "Lux",
+        "metadata": {
+          "manufacturer": "IllumiTech",
+          "model": "IL800",
+          "calibration_date": "2023-01-20",
+          "serial_number": "81749"
+        }
+      },
+      {
+        "sensor_id": "S087",
+        "sensor_type": "vibration",
+        "location": "Warehouse B",
+        "timestamp": "2023-06-07T02:00:00Z",
+        "vibration_intensity": 0.5,
+        "unit": "g",
+        "metadata": {
+          "manufacturer": "VibraSense Inc.",
+          "model": "VS120",
+          "calibration_date": "2023-03-12",
+          "serial_number": "69241"
+        }
+      },
+      {
+        "sensor_id": "S088",
+        "sensor_type": "gas",
+        "location": "Chemical Storage",
+        "timestamp": "2023-06-07T02:45:00Z",
+        "gas_type": "Ethanol",
+        "concentration": 2.1,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "GasSense",
+          "model": "GS600",
+          "calibration_date": "2023-02-25",
+          "serial_number": "93571"
+        }
+      },
+      {
+        "sensor_id": "S089",
+        "sensor_type": "temperature",
+        "location": "Refrigerator",
+        "timestamp": "2023-06-07T03:30:00Z",
+        "reading": 6.8,
+        "unit": "Celsius",
+        "metadata": {
+          "manufacturer": "CoolSense",
+          "model": "CS400",
+          "calibration_date": "2023-03-18",
+          "serial_number": "62584"
+        }
+      },
+      {
+        "sensor_id": "S090",
+        "sensor_type": "humidity",
+        "location": "Clean Room",
+        "timestamp": "2023-06-07T04:15:00Z",
+        "reading": 48.9,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "HumidSense Solutions",
+          "model": "HS450",
+          "calibration_date": "2023-01-10",
+          "serial_number": "18963"
+        }
+      },
+      {
+        "sensor_id": "S091",
+        "sensor_type": "pressure",
+        "location": "Laboratory",
+        "timestamp": "2023-06-07T05:00:00Z",
+        "pressure": 101.2,
+        "unit": "kPa",
+        "metadata": {
+          "manufacturer": "PressureTech",
+          "model": "PT200",
+          "calibration_date": "2023-02-28",
+          "serial_number": "75293"
+        }
+      },
+      {
+        "sensor_id": "S092",
+        "sensor_type": "light",
+        "location": "Production Area",
+        "timestamp": "2023-06-07T05:45:00Z",
+        "light_intensity": 520,
+        "unit": "Lux",
+        "metadata": {
+          "manufacturer": "IllumiTech",
+          "model": "IL800",
+          "calibration_date": "2023-01-15",
+          "serial_number": "52639"
+        }
+      },
+      {
+        "sensor_id": "S093",
+        "sensor_type": "vibration",
+        "location": "Warehouse B",
+        "timestamp": "2023-06-07T06:30:00Z",
+        "vibration_intensity": 0.3,
+        "unit": "g",
+        "metadata": {
+          "manufacturer": "VibraSense Inc.",
+          "model": "VS120",
+          "calibration_date": "2023-02-10",
+          "serial_number": "31957"
+        }
+      },
+      {
+        "sensor_id": "S094",
+        "sensor_type": "gas",
+        "location": "Chemical Storage",
+        "timestamp": "2023-06-07T07:15:00Z",
+        "gas_type": "Methane",
+        "concentration": 1.8,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "GasSense",
+          "model": "GS600",
+          "calibration_date": "2023-03-05",
+          "serial_number": "85246"
+        }
+      },
+      {
+        "sensor_id": "S095",
+        "sensor_type": "temperature",
+        "location": "Warehouse C",
+        "timestamp": "2023-06-07T08:00:00Z",
+        "reading": 26.2,
+        "unit": "Celsius",
+        "metadata": {
+          "manufacturer": "TempPro",
+          "model": "TP300",
+          "calibration_date": "2023-02-20",
+          "serial_number": "98765"
+        }
+      },
+      {
+        "sensor_id": "S096",
+        "sensor_type": "humidity",
+        "location": "Clean Room",
+        "timestamp": "2023-06-07T08:45:00Z",
+        "reading": 51.3,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "HumidTech",
+          "model": "HT500",
+          "calibration_date": "2023-03-10",
+          "serial_number": "74125"
+        }
+      },
+      {
+        "sensor_id": "S097",
+        "sensor_type": "pressure",
+        "location": "Laboratory",
+        "timestamp": "2023-06-07T09:30:00Z",
+        "pressure": 100.8,
+        "unit": "kPa",
+        "metadata": {
+          "manufacturer": "PressureSense",
+          "model": "PS250",
+          "calibration_date": "2023-02-15",
+          "serial_number": "36985"
+        }
+      },
+      {
+        "sensor_id": "S098",
+        "sensor_type": "light",
+        "location": "Production Area",
+        "timestamp": "2023-06-07T10:15:00Z",
+        "light_intensity": 480,
+        "unit": "Lux",
+        "metadata": {
+          "manufacturer": "BrightSense",
+          "model": "BR700",
+          "calibration_date": "2023-01-25",
+          "serial_number": "85214"
+        }
+      },
+      {
+        "sensor_id": "S099",
+        "sensor_type": "vibration",
+        "location": "Warehouse B",
+        "timestamp": "2023-06-07T11:00:00Z",
+        "vibration_intensity": 0.4,
+        "unit": "g",
+        "metadata": {
+          "manufacturer": "VibraTech",
+          "model": "VT150",
+          "calibration_date": "2023-03-01",
+          "serial_number": "96325"
+        }
+      },
+      {
+        "sensor_id": "S100",
+        "sensor_type": "gas",
+        "location": "Chemical Storage",
+        "timestamp": "2023-06-07T11:45:00Z",
+        "gas_type": "Carbon Dioxide",
+        "concentration": 2.1,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "GasTech",
+          "model": "GT700",
+          "calibration_date": "2023-03-15",
+          "serial_number": "14785"
+        }
+      },
+      {
+        "sensor_id": "S101",
+        "sensor_type": "temperature",
+        "location": "Storage Room",
+        "timestamp": "2023-06-07T12:30:00Z",
+        "reading": 25.8,
+        "unit": "Celsius",
+        "metadata": {
+          "manufacturer": "TempPro",
+          "model": "TP200",
+          "calibration_date": "2023-01-10",
+          "serial_number": "36987"
+        }
+      },
+      {
+        "sensor_id": "S102",
+        "sensor_type": "humidity",
+        "location": "Clean Room",
+        "timestamp": "2023-06-07T13:15:00Z",
+        "reading": 49.7,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "HumidTech",
+          "model": "HT300",
+          "calibration_date": "2023-02-05",
+          "serial_number": "74123"
+        }
+      },
+      {
+        "sensor_id": "S103",
+        "sensor_type": "pressure",
+        "location": "Laboratory",
+        "timestamp": "2023-06-07T14:00:00Z",
+        "pressure": 100.5,
+        "unit": "kPa",
+        "metadata": {
+          "manufacturer": "PressureSense",
+          "model": "PS150",
+          "calibration_date": "2023-02-10",
+          "serial_number": "36989"
+        }
+      },
+      {
+        "sensor_id": "S104",
+        "sensor_type": "light",
+        "location": "Production Area",
+        "timestamp": "2023-06-07T14:45:00Z",
+        "light_intensity": 520,
+        "unit": "Lux",
+        "metadata": {
+          "manufacturer": "BrightSense",
+          "model": "BR500",
+          "calibration_date": "2023-01-20",
+          "serial_number": "85216"
+        }
+      },
+      {
+        "sensor_id": "S105",
+        "sensor_type": "vibration",
+        "location": "Warehouse B",
+        "timestamp": "2023-06-07T15:30:00Z",
+        "vibration_intensity": 0.3,
+        "unit": "g",
+        "metadata": {
+          "manufacturer": "VibraTech",
+          "model": "VT100",
+          "calibration_date": "2023-02-25",
+          "serial_number": "96327"
+        }
+      },
+      {
+        "sensor_id": "S106",
+        "sensor_type": "gas",
+        "location": "Chemical Storage",
+        "timestamp": "2023-06-07T16:15:00Z",
+        "gas_type": "Ammonia",
+        "concentration": 1.8,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "GasTech",
+          "model": "GT500",
+          "calibration_date": "2023-03-05",
+          "serial_number": "14787"
+        }
+      },
+      {
+        "sensor_id": "S107",
+        "sensor_type": "temperature",
+        "location": "Freezer",
+        "timestamp": "2023-06-07T17:00:00Z",
+        "reading": -18.2,
+        "unit": "Celsius",
+        "metadata": {
+          "manufacturer": "ColdSense",
+          "model": "CS400",
+          "calibration_date": "2023-02-28",
+          "serial_number": "25896"
+        }
+      },
+      {
+        "sensor_id": "S108",
+        "sensor_type": "humidity",
+        "location": "Warehouse C",
+        "timestamp": "2023-06-07T17:45:00Z",
+        "reading": 62.1,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "HumidPro",
+          "model": "HP250",
+          "calibration_date": "2023-01-25",
+          "serial_number": "98741"
+        }
+      },
+      {
+        "sensor_id": "S109",
+        "sensor_type": "pressure",
+        "location": "Packaging Area",
+        "timestamp": "2023-06-07T18:30:00Z",
+        "pressure": 98.9,
+        "unit": "kPa",
+        "metadata": {
+          "manufacturer": "PressureTech",
+          "model": "PT180",
+          "calibration_date": "2023-03-01",
+          "serial_number": "78542"
+        }
+      },
+      {
+        "sensor_id": "S110",
+        "sensor_type": "light",
+        "location": "Storage Room",
+        "timestamp": "2023-06-07T19:15:00Z",
+        "light_intensity": 400,
+        "unit": "Lux",
+        "metadata": {
+          "manufacturer": "LightPro",
+          "model": "LP300",
+          "calibration_date": "2023-02-15",
+          "serial_number": "36985"
+        }
+      },
+      {
+        "sensor_id": "S111",
+        "sensor_type": "vibration",
+        "location": "Production Area",
+        "timestamp": "2023-06-07T20:00:00Z",
+        "vibration_intensity": 0.5,
+        "unit": "g",
+        "metadata": {
+          "manufacturer": "VibroSense",
+          "model": "VS200",
+          "calibration_date": "2023-03-10",
+          "serial_number": "63214"
+        }
+      },
+      {
+        "sensor_id": "S112",
+        "sensor_type": "gas",
+        "location": "Chemical Lab",
+        "timestamp": "2023-06-07T20:45:00Z",
+        "gas_type": "Nitrogen",
+        "concentration": 0.8,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "GasPro",
+          "model": "GP600",
+          "calibration_date": "2023-03-15",
+          "serial_number": "95123"
+        }
+      },
+      {
+        "sensor_id": "S113",
+        "sensor_type": "temperature",
+        "location": "Cold Storage",
+        "timestamp": "2023-06-07T21:30:00Z",
+        "reading": -12.5,
+        "unit": "Celsius",
+        "metadata": {
+          "manufacturer": "FreezeTech",
+          "model": "FT500",
+          "calibration_date": "2023-02-20",
+          "serial_number": "78456"
+        }
+      },
+      {
+        "sensor_id": "S114",
+        "sensor_type": "humidity",
+        "location": "Warehouse B",
+        "timestamp": "2023-06-07T22:15:00Z",
+        "reading": 58.7,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "HumidSense",
+          "model": "HS300",
+          "calibration_date": "2023-01-30",
+          "serial_number": "23658"
+        }
+      },
+      {
+        "sensor_id": "S115",
+        "sensor_type": "pressure",
+        "location": "Clean Room",
+        "timestamp": "2023-06-07T23:00:00Z",
+        "pressure": 101.2,
+        "unit": "kPa",
+        "metadata": {
+          "manufacturer": "PressPro",
+          "model": "PP200",
+          "calibration_date": "2023-02-28",
+          "serial_number": "47852"
+        }
+      },
+      {
+        "sensor_id": "S116",
+        "sensor_type": "light",
+        "location": "Lab A",
+        "timestamp": "2023-06-07T23:45:00Z",
+        "light_intensity": 350,
+        "unit": "Lux",
+        "metadata": {
+          "manufacturer": "Lumina",
+          "model": "LM400",
+          "calibration_date": "2023-03-05",
+          "serial_number": "69854"
+        }
+      },
+      {
+        "sensor_id": "S117",
+        "sensor_type": "vibration",
+        "location": "Machine Room",
+        "timestamp": "2023-06-08T00:30:00Z",
+        "vibration_intensity": 0.7,
+        "unit": "g",
+        "metadata": {
+          "manufacturer": "VibePro",
+          "model": "VP250",
+          "calibration_date": "2023-03-20",
+          "serial_number": "32145"
+        }
+      },
+      {
+        "sensor_id": "S118",
+        "sensor_type": "gas",
+        "location": "Storage Area",
+        "timestamp": "2023-06-08T01:15:00Z",
+        "gas_type": "Oxygen",
+        "concentration": 0.9,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "OxySense",
+          "model": "OS500",
+          "calibration_date": "2023-03-25",
+          "serial_number": "85236"
+        }
+      },
+      {
+        "sensor_id": "S119",
+        "sensor_type": "temperature",
+        "location": "Lab B",
+        "timestamp": "2023-06-08T02:00:00Z",
+        "reading": 21.8,
+        "unit": "Celsius",
+        "metadata": {
+          "manufacturer": "TempTech",
+          "model": "TT700",
+          "calibration_date": "2023-04-10",
+          "serial_number": "96587"
+        }
+      },
+      {
+        "sensor_id": "S120",
+        "sensor_type": "humidity",
+        "location": "Production Area",
+        "timestamp": "2023-06-08T02:45:00Z",
+        "reading": 62.3,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "HygroSense",
+          "model": "HG400",
+          "calibration_date": "2023-04-15",
+          "serial_number": "78549"
+        }
+      },
+      {
+        "sensor_id": "S121",
+        "sensor_type": "pressure",
+        "location": "Clean Room",
+        "timestamp": "2023-06-08T03:30:00Z",
+        "pressure": 100.9,
+        "unit": "kPa",
+        "metadata": {
+          "manufacturer": "PressPro",
+          "model": "PP200",
+          "calibration_date": "2023-05-02",
+          "serial_number": "36251"
+        }
+      },
+      {
+        "sensor_id": "S122",
+        "sensor_type": "light",
+        "location": "Lab C",
+        "timestamp": "2023-06-08T04:15:00Z",
+        "light_intensity": 420,
+        "unit": "Lux",
+        "metadata": {
+          "manufacturer": "Lumina",
+          "model": "LM400",
+          "calibration_date": "2023-05-10",
+          "serial_number": "65428"
+        }
+      },
+      {
+        "sensor_id": "S123",
+        "sensor_type": "vibration",
+        "location": "Machine Room",
+        "timestamp": "2023-06-08T05:00:00Z",
+        "vibration_intensity": 0.8,
+        "unit": "g",
+        "metadata": {
+          "manufacturer": "VibePro",
+          "model": "VP250",
+          "calibration_date": "2023-05-15",
+          "serial_number": "98521"
+        }
+      },
+      {
+        "sensor_id": "S124",
+        "sensor_type": "gas",
+        "location": "Storage Area",
+        "timestamp": "2023-06-08T05:45:00Z",
+        "gas_type": "Nitrogen",
+        "concentration": 0.5,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "GasSense",
+          "model": "GS600",
+          "calibration_date": "2023-05-20",
+          "serial_number": "41258"
+        }
+      },
+      {
+        "sensor_id": "S125",
+        "sensor_type": "temperature",
+        "location": "Cold Storage",
+        "timestamp": "2023-06-08T06:30:00Z",
+        "reading": -18.5,
+        "unit": "Celsius",
+        "metadata": {
+          "manufacturer": "FreezeTech",
+          "model": "FT500",
+          "calibration_date": "2023-05-25",
+          "serial_number": "63214"
+        }
+      },
+      {
+        "sensor_id": "S126",
+        "sensor_type": "humidity",
+        "location": "Lab D",
+        "timestamp": "2023-06-08T07:15:00Z",
+        "reading": 48.9,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "HumidSense",
+          "model": "HM300",
+          "calibration_date": "2023-05-30",
+          "serial_number": "98547"
+        }
+      },
+      {
+        "sensor_id": "S127",
+        "sensor_type": "pressure",
+        "location": "Production Area",
+        "timestamp": "2023-06-08T08:00:00Z",
+        "pressure": 98.7,
+        "unit": "kPa",
+        "metadata": {
+          "manufacturer": "PressPro",
+          "model": "PP200",
+          "calibration_date": "2023-05-02",
+          "serial_number": "36251"
+        }
+      },
+      {
+        "sensor_id": "S128",
+        "sensor_type": "light",
+        "location": "Lab E",
+        "timestamp": "2023-06-08T08:45:00Z",
+        "light_intensity": 380,
+        "unit": "Lux",
+        "metadata": {
+          "manufacturer": "Lumina",
+          "model": "LM400",
+          "calibration_date": "2023-05-10",
+          "serial_number": "65428"
+        }
+      },
+      {
+        "sensor_id": "S129",
+        "sensor_type": "vibration",
+        "location": "Machine Room",
+        "timestamp": "2023-06-08T09:30:00Z",
+        "vibration_intensity": 0.6,
+        "unit": "g",
+        "metadata": {
+          "manufacturer": "VibePro",
+          "model": "VP250",
+          "calibration_date": "2023-05-15",
+          "serial_number": "98521"
+        }
+      },
+      {
+        "sensor_id": "S130",
+        "sensor_type": "gas",
+        "location": "Storage Area",
+        "timestamp": "2023-06-08T10:15:00Z",
+        "gas_type": "Oxygen",
+        "concentration": 0.8,
+        "unit": "%",
+        "metadata": {
+          "manufacturer": "GasSense",
+          "model": "GS600",
+          "calibration_date": "2023-05-20",
+          "serial_number": "41258"
+        }
+      }
+    
+    ]
